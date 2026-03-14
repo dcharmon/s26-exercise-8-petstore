@@ -18,7 +18,7 @@ public class Pet{
 	private Category category;
 
 	@JsonProperty("tags")
-	private List<TagsItem> tags;
+	private List<Tag> tags;
 
 	@JsonProperty("status")
 	private String status;
@@ -55,11 +55,11 @@ public class Pet{
 		return category;
 	}
 
-	public void setTags(List<TagsItem> tags){
+	public void setTags(List<Tag> tags){
 		this.tags = tags;
 	}
 
-	public List<TagsItem> getTags(){
+	public List<Tag> getTags(){
 		return tags;
 	}
 

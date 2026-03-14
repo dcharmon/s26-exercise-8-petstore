@@ -2,7 +2,7 @@ package com.dcharmon.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class TagsItem{
+public class Tag {
 
 	@JsonProperty("name")
 	private String name;
